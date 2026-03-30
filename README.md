@@ -125,13 +125,21 @@ Exemplos de requisições utilizadas durante os testes:
 
 ## Prints da API
 
-Adicione abaixo os prints das requisições realizadas no Insomnia:
+Algumas das requisições realizadas no Insomnia:
 
-![Clientes](docs/cliente.png)
-![Quadras](docs/quadra.png)
-![Reservas](docs/reserva.png)
+Listagem de clientes:
 
----
+![Clientes](docs/Entidade_cliente/Listar_Cliente.png)
+
+Listagem de Quadras:
+
+![Quadras](docs/Entidade_Quadra/Listar_Quadra.png)
+
+Listagem de Reservas:
+
+![Reservas](docs/Entidade_Reserva/Listar_Reserva.png)
+
+Com as demais imagens, contidas na pasta docs, separada as demais pastas do projeto
 
 ## Regras de Negócio
 
@@ -143,7 +151,7 @@ Adicione abaixo os prints das requisições realizadas no Insomnia:
 
 ## Autor
 
-Projeto desenvolvido por Gean
+Projeto desenvolvido pelo estudante, Geanderson Augusto Toledo Rodrigues
 Estudante de Sistemas de Informação
 
 ---
