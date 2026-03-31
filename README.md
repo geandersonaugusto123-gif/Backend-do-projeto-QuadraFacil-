@@ -77,6 +77,34 @@ O sistema utiliza PostgreSQL e é composto pelas seguintes entidades:
 
 ---
 
+## Diagrama de Classes - QuadraFácil
+
+O diagrama abaixo representa a estrutura das entidades do sistema e seus relacionamentos.
+
+```mermaid
+classDiagram
+    direction LR
+    class Cliente {
+        -Long id
+        -String nome
+        -String cpf
+        -Boolean ativo
+    }
+    class Reserva {
+        -Long id
+        -LocalDateTime inicio
+        -LocalDateTime fim
+        -Double valorTotal
+    }
+    class Quadra {
+        -Long id
+        -Double valorHora
+        -Boolean coberta
+    }
+    Cliente "1" --> "N" Reserva : possui
+    Reserva "N" --> "1" Quadra : reserva_em
+```
+
 ## Como Executar o Projeto
 
 ### 1. Clonar o repositório
